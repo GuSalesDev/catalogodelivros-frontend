@@ -1,0 +1,68 @@
+.livros-header {
+  margin-bottom: var(--space-lg);
+}
+
+.livros-vazio {
+  color: var(--color-text-muted);
+}
+
+.livros-lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.livro-linha {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.livro-lombada {
+  width: 4px;
+  height: 32px;
+  background-color: var(--color-accent);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.livro-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.livro-titulo {
+  font-family: var(--font-display);
+  font-size: 1rem;
+}
+
+.livro-autor {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.livro-categorias {
+  display: flex;
+  gap: var(--space-xs);
+}
+
+.livro-categoria-tag {
+  font-size: 0.75rem;
+  background-color: var(--color-border);
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: var(--color-text-muted);
+}
+
+.livro-paginas {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.erro {
+  color: var(--color-danger);
+}

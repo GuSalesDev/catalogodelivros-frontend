@@ -1,0 +1,52 @@
+.livro-form-page h1 {
+  margin-bottom: var(--space-lg);
+}
+
+.livro-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  max-width: 480px;
+}
+
+.livro-form label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: var(--space-sm);
+}
+
+.livro-form input,
+.livro-form textarea,
+.livro-form select {
+  padding: var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
+
+.categorias-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.categoria-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.livro-form button {
+  margin-top: var(--space-md);
+  padding: var(--space-sm);
+  background-color: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  cursor: pointer;
+  width: fit-content;
+}

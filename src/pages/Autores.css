@@ -1,0 +1,44 @@
+.autores-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-lg);
+}
+
+.lista-vazia {
+  color: var(--color-text-muted);
+}
+
+.autores-lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.autor-linha {
+  display: flex;
+  gap: var(--space-md);
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.autor-nome {
+  font-family: var(--font-display);
+  flex: 1;
+}
+
+.autor-nacionalidade,
+.autor-nascimento {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+}
+
+.btn-novo {
+  background-color: var(--color-accent);
+  color: white;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  font-size: 0.875rem;
+}
