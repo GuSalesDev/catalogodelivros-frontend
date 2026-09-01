@@ -72,3 +72,18 @@
 .login-footer a {
   color: var(--color-accent);
 }
+
+.livros-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-novo {
+  background-color: var(--color-accent);
+  color: white;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  font-size: 0.875rem;
+}
